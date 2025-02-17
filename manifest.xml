@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OfficeApp xmlns="http://schemas.microsoft.com/office/appforoffice/1.1"
+           xsi:type="TaskPaneApp"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Id>12345678-1234-1234-1234-123456789abc</Id>
+    <Version>1.0</Version>
+    <ProviderName>Addon Fake</ProviderName>
+    <DefaultLocale>en-US</DefaultLocale>
+    <DisplayName>Fake Outlook Addon</DisplayName>
+    <Description>This is a fake Outlook Addon for demonstration purposes, to simulate adding functionality to Outlook.</Description>
+    <IconUrl>https://via.placeholder.com/32</IconUrl>
+    <SupportUrl>https://github.com/numele-tau/Outlook-Addon-Fake</SupportUrl>
+    <Hosts>
+        <Host Name="Mailbox"/>
+    </Hosts>
+    <DefaultSettings>
+        <SourceLocation DefaultValue="https://example.com/taskpane.html"/>
+    </DefaultSettings>
+</OfficeApp>
